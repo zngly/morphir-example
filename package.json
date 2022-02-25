@@ -1,5 +1,5 @@
 {
-    "name": "rentals",
+    "name": "@zngly/morphir-example",
     "version": "1.0.0",
     "description": "",
     "scripts": {
@@ -9,7 +9,7 @@
         "build": "npm run make & npm run gen",
         "start": "npm run build & npm run develop"
     },
-    "author": "",
+    "author": "Vlad-Anton Medves",
     "license": "ISC",
     "dependencies": {
         "elm": "^0.19.1-5",
