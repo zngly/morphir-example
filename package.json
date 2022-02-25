@@ -6,8 +6,8 @@
         "make": "morphir-elm make",
         "develop": "morphir-elm develop -o localhost",
         "gen": "morphir-elm gen",
-        "build": "npm run make && npm run gen",
-        "start": "npm run build && npm run develop"
+        "build": "npm run make & npm run gen",
+        "start": "npm run build & npm run develop"
     },
     "author": "",
     "license": "ISC",
