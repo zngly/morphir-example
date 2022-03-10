@@ -1,8 +1,8 @@
-module Morphir.Example.App.Rentals exposing (..)
+module Morphir.Examples.App.Rentals exposing (..)
 
-import Morphir.Example.App.BusinessTerms exposing (..)
-import Morphir.Example.App.Forecast exposing (..)
-import Morphir.Example.App.Winds exposing (..)
+import Morphir.Examples.App.BusinessTerms exposing (..)
+import Morphir.Examples.App.Forecast exposing (..)
+import Morphir.Examples.App.Winds exposing (..)
 
 decide : WindCategory -> ForecastDetail -> CurrentInventory -> ProbableReservations -> PendingReturns -> RequestedQuantity -> AllowPartials -> Result Reason ReservationQuantity
 decide windCategory forecastDetail inventory probableReservations returns requestedQuantity allowPartials =

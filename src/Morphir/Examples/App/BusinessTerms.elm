@@ -1,4 +1,4 @@
-module Morphir.Example.App.BusinessTerms exposing (..)
+module Morphir.Examples.App.BusinessTerms exposing (..)
 
 {-| The number of items in stock.
 -}

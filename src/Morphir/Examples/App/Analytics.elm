@@ -1,6 +1,6 @@
-module Morphir.Example.App.Analytics exposing (..)
+module Morphir.Examples.App.Analytics exposing (..)
 
-import Morphir.Example.App.BusinessTerms exposing (..)
+import Morphir.Examples.App.BusinessTerms exposing (..)
 
 
 {-| Calculates the probable reservations by applying the historical cancelation ratio to current reservations.

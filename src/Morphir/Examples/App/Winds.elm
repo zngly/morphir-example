@@ -1,4 +1,4 @@
-module Morphir.Example.App.Winds exposing (..)
+module Morphir.Examples.App.Winds exposing (..)
 
 {-| Categorizes Forecast wind speeds into categories that are meaningful to the rental business.
 -}

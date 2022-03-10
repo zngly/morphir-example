@@ -1,4 +1,4 @@
-module Morphir.Example.App.Forecast exposing (..)
+module Morphir.Examples.App.Forecast exposing (..)
 
 {-| Forecast represents the API from an external weather forecast provider.
 -}

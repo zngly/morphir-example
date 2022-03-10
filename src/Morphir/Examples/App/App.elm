@@ -1,10 +1,10 @@
-module Morphir.Example.App.App exposing (..)
+module Morphir.Examples.App.App exposing (..)
 
-import Morphir.Example.App.Analytics exposing (..)
-import Morphir.Example.App.BusinessTerms exposing (..)
-import Morphir.Example.App.Forecast exposing (..)
-import Morphir.Example.App.Rentals exposing (..)
-import Morphir.Example.App.Winds exposing (..)
+import Morphir.Examples.App.Analytics exposing (..)
+import Morphir.Examples.App.BusinessTerms exposing (..)
+import Morphir.Examples.App.Forecast exposing (..)
+import Morphir.Examples.App.Rentals exposing (..)
+import Morphir.Examples.App.Winds exposing (..)
 
 
 main : Forecast -> CurrentInventory -> ExistingReservations -> ReservationQuantity -> CanceledQuantity -> PendingReturns -> RequestedQuantity -> AllowPartials -> Result Reason ReservationQuantity
